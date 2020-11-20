@@ -6,6 +6,9 @@ token=os.environ['PLUS_KEY']
 plant1=os.environ['PLANT1']
 fruit1=os.environ['FRUIT1']
 pet1=os.environ['PET1']
+plant2=os.environ['PLANT2']
+fruit2=os.environ['FRUIT2']
+pet2=os.environ['PET2']
 def jd_subscribe(plant_code,fruit_code,pet_code):
     try:
         # 模拟浏览器打开网站
@@ -38,3 +41,4 @@ def jd_subscribe(plant_code,fruit_code,pet_code):
         requests.get(url)
 if __name__ == "__main__":
    jd_subscribe(plant1,fruit1,pet1)
+   jd_subscribe(plant2,fruit2,pet2)
