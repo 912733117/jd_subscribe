@@ -37,4 +37,7 @@ jobs:
               PLANT1 : ${{ secrets.PLANT1 }}
               FRUIT1 : ${{ secrets.FRUIT1 }}
               PET1 : ${{ secrets.PET1 }}
+              PLANT2 : ${{ secrets.PLANT2 }}
+              FRUIT2 : ${{ secrets.FRUIT2 }}
+              PET2 : ${{ secrets.PET2 }}
           run: python3 main.py
